@@ -1,0 +1,74 @@
+*{margin: 0;
+ padding:0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+html { 
+    background: url("indir\ \(1\).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    width: 100%; height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.anakutu{
+    width: 90%;
+    height: 90vh;
+   
+    border-radius: 20px;
+}
+.menu{
+width: 100%;
+height: 10%;
+background-color: rgb(243, 192, 222);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li{
+    padding: 10px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* İLKİ DİKLİĞİN İKİNCİSİ GENİŞİLĞİN MİKTARI*/
+}
+
+li:hover{
+    border-bottom: 2px solid white;
+    color: black;
+}
+li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    transition: .5s;
+}
+.ana{
+width: 100%;
+height: 90%;
+background-color: rgb(98, 191, 235);
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.resimkutu{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.resim{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
